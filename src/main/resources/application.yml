@@ -2,3 +2,13 @@ server:
   port: 8090
   servlet:
     context-path: /biblioteca
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/biblioteca
+    username: user
+    password: user.123
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
